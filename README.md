@@ -1,18 +1,22 @@
-# blueasy
-intégration d'une maquette en groupe ACS 2019
-Etienne 
-        header
-        hero
-        service
-Johanna
-        portfolio
-        section
-Ilias
-        twitter
-        who is?
-Tom
-        testomonid
-        contact
+# Blueasy
+Intégration d'une maquette en groupe ACS 2019
 
-Bonus:  
-      Footer
+Etienne 
+- Header
+- Hero
+- Service
+
+Johanna
+- Portfolio
+- Section
+
+Ilias
+- Twitter
+- Who is?
+
+Thomas
+- Testomonid
+- Contact
+
+Bonus:
+- Footer
