@@ -1,9 +1,33 @@
 /** COLORS
+
+
 #4bcaff -> bleu clair
 #515f67 -> gris
 #39444b -> gris header
 #353f46 -> gris foncé visit me
+
+marge du contenu main -> 375px
+
 **/
+
+
+/************** FONT *************/
+@font-face {
+   font-family: "segoe-light";
+   src: url('../font/segoe_ui_light.ttf');
+}
+
+@font-face {
+   font-family: "segoe-regular";
+   src: url('../font/segoe_ui_regular.ttf');
+}
+
+@font-face {
+   font-family: "segoe-bold";
+   font-weight: bold;
+   src: url('../fontsegoe_ui_bold.ttf');
+}
+/*********************************/
 
 *{
    box-sizing: border-box;
@@ -11,10 +35,24 @@
 
 body{
    margin: 0;
-   background: black;
 }
 
 main{
-   margin: 0px 375px;
-   background: white;
+
+}
+/** CONTACT **/
+.main-contact{
+   background: #515f67;
+   color: white;
+}
+
+.header-contact h2{
+   margin: 0;
+   display: inline-block;
+   text-transform: uppercase;
+   font-family: "segoe-light";
+}
+
+.header-contact h2 span{
+   text-decoration: underline;
 }
