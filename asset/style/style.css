@@ -1,3 +1,13 @@
+*{
+   box-sizing: border-box;
+}
+
 body{
+   margin: 0;
    background: black;
+}
+
+main{
+   margin: 0px 375px;
+   background: white;
 }
