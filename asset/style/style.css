@@ -19,18 +19,18 @@ marge du contenu main -> 375px
 
 @font-face {
    font-family: "segoe-regular";
-   src: url('../font/segoe_ui_regular.ttf');
+   src: url('../font/segoe_ui.ttf');
 }
 
 @font-face {
    font-family: "segoe-bold";
-   font-weight: bold;
-   src: url('../fontsegoe_ui_bold.ttf');
+   src: url('../font/segoe_ui_bold.ttf');
 }
 /*********************************/
 
 *{
    box-sizing: border-box;
+   font-family: "segoe-light";
 }
 
 body{
@@ -40,19 +40,94 @@ body{
 main{
 
 }
-/** CONTACT **/
+
+/********* CONTACT ************/
 .main-contact{
    background: #515f67;
    color: white;
+   background-image: url("../img/contact.jpg");
+   opacity: rgba(0,0,0,0.1);
+}
+
+.wrap-contact{
+   margin: 0px 375px;
 }
 
 .header-contact h2{
-   margin: 0;
+   margin: 70px 0px 40px 0px;
+   padding: 10px 0px;
    display: inline-block;
    text-transform: uppercase;
    font-family: "segoe-light";
+   font-size: 1.87rem;
 }
 
 .header-contact h2 span{
-   text-decoration: underline;
+   font-family: "segoe-light";
+   margin-bottom: 10px;
+   border-bottom: solid 2px;
 }
+
+
+.form-contact{
+   padding-bottom: 70px;
+}
+
+label{
+   display: block;
+   font-family: "segoe-bold";
+   font-weight: normal;
+   font-size: 0.87rem;
+   text-transform: uppercase;
+}
+
+input,textarea{
+   display: block;
+   margin: 10px 0px 40px 0px;
+   color: white;
+   font-size: 1rem;
+   font-family: "segoe-light";
+}
+
+input{
+   height: 60px;
+   width: 465px;
+   background-color: rgba(0,0,0,0);
+   border: solid 2px white;
+}
+
+textarea{
+   width: 1165px;
+   background-color: rgba(0,0,0,0);
+   border: solid 2px white;
+   resize : none;
+}
+
+#button{
+   margin: 0;
+   background: #4bcaff;
+   border: none;
+   color: white;
+   font-size: 0.87rem;
+   font-family: "segoe-bold";
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+#button:hover{
+   cursor: pointer;
+}
+
+.info-contact{
+   position: absolute;
+   top: 200px;
+   right: 400px;
+}
+
+.info-contact p{
+   margin: 0;
+   width: 550px;
+   height: 200px;
+}
+
+/*********************************/
