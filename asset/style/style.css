@@ -1,3 +1,20 @@
+/** COLORS
+#4bcaff -> bleu clair
+#515f67 -> gris
+#39444b -> gris header
+#353f46 -> gris foncé visit me
+**/
+
+*{
+   box-sizing: border-box;
+}
+
 body{
+   margin: 0;
    background: black;
+}
+
+main{
+   margin: 0px 375px;
+   background: white;
 }
