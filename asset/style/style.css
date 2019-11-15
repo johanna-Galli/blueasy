@@ -1,17 +1,36 @@
 /** COLORS
+
+
 #4bcaff -> bleu clair
 #515f67 -> gris
 #39444b -> gris header
 #353f46 -> gris foncé visit me
+
+marge du contenu main -> 375px
+
 **/
 
-*{
-   box-sizing: border-box;
+
+/************** FONTS *************/
+@font-face {
+   font-family: "segoe-light";
+   src: url('../font/segoe_ui_light.ttf');
 }
 
 @font-face {
-   font-family: 'sergoe UI';
-   src: url('../font/Segoe\ UI.ttf')
+   font-family: "segoe-regular";
+   src: url('../font/segoe_ui_regular.ttf');
+}
+
+@font-face {
+   font-family: "segoe-bold";
+   font-weight: bold;
+   src: url('../fontsegoe_ui_bold.ttf');
+}
+/*********************************/
+
+*{
+   box-sizing: border-box;
 }
 
 body{
