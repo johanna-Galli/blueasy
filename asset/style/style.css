@@ -9,12 +9,27 @@
    box-sizing: border-box;
 }
 
+@font-face {
+   font-family: 'sergoe UI';
+   src: url('../font/Segoe\ UI.ttf')
+}
+
 body{
    margin: 0;
-   background: black;
 }
 
 main{
    margin: 0px 375px;
+}
+
+.conteneur_porfolio {
    background: white;
+}
+
+.contenu_portfolio {
+}
+
+.titre_portfolio {
+   margin: 15px;
+   font-family: 'sergoe UI'
 }
