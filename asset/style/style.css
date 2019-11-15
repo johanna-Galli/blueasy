@@ -56,3 +56,53 @@ main{
 .header-contact h2 span{
    text-decoration: underline;
 }
+/************Twitter******************/
+
+.background-twitter{
+  
+   height:306px;
+   background:#4bcaff;
+   top: 2522px;
+   position: relative;
+
+}
+.twitter{
+   text-decoration: underline;
+   color: white;
+}
+.text{   
+   color: white;
+   font-family: "segoe-light";
+   left: 375px;
+   position: relative;
+   top: 81px;
+   font-size: 30px;
+   
+   
+}
+div.test p {
+   left: 375px;
+   color: white;
+   font-family: "segoe-light";
+   font-size: 28px;
+   position: relative;
+   font-weight: lighter;
+   top: 81px;
+  
+   
+   
+}
+div.test .bold {
+   font-weight:900;
+   
+   
+   
+}
+div.test img {
+
+   position: relative;
+}
+div.test{
+   background-color: transparent;
+
+}
