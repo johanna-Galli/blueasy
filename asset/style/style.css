@@ -35,20 +35,67 @@ marge du contenu main -> 375px
 
 body{
    margin: 0;
+   width: 1920px;
 }
 
-main{
-   margin: 0px 375px;
-}
 
-.conteneur_porfolio {
-   background: white;
-}
+/***************** PORTFOLIO *****************/
 
-.contenu_portfolio {
+
+.conteneur_portfolio {
+   margin: 0px 375px 65px 375px;
 }
 
 .titre_portfolio {
-   margin: 15px;
-   font-family: 'sergoe UI'
+   display: inline-block;
+   margin: 80px 0px 0px 0px;
 }
+
+.titre_portfolio h2 {
+   font-family: "segoe-light";
+   font-size: 1.87rem;
+}
+
+hr{
+   
+}
+
+.menu_portfolio {
+   display: inline-block;
+}
+
+.nav_portfolio ul li {
+   display: inline-block;
+}
+
+a {
+   font-family: "segoe-light";
+   text-decoration: none;
+   text-decoration-color: #515f67;
+   padding: 8px 16px;
+   margin: 9px;
+   border: solid 2px white;
+   box-sizing: border-box ;
+}
+
+a:hover {
+   color: #4bcaff;
+   border:solid 2px #4bcaff;
+   box-sizing: border-box;
+}
+
+
+.conteneur_img_portfolio{
+   margin: 0px 360px 66px 360px;
+}
+.img_portfolio {
+   display: inline-block;
+   overflow: hidden;
+   height: 260px;
+   width: 260px;
+   margin: 15px;
+}
+
+
+
+/************************************************/
