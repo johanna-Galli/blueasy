@@ -10,99 +10,142 @@ marge du contenu main -> 375px
 
 **/
 
-
 /************** FONT *************/
 @font-face {
-   font-family: "segoe-light";
-   src: url('../font/segoe_ui_light.ttf');
+  font-family: "segoe-light";
+  src: url("../font/segoe_ui_light.ttf");
 }
 
 @font-face {
-   font-family: "segoe-regular";
-   src: url('../font/segoe_ui_regular.ttf');
+  font-family: "segoe-regular";
+  src: url("../font/segoe_ui_regular.ttf");
 }
 
 @font-face {
-   font-family: "segoe-bold";
-   font-weight: bold;
-   src: url('../fontsegoe_ui_bold.ttf');
+  font-family: "segoe-bold";
+  font-weight: bold;
+  src: url("../fontsegoe_ui_bold.ttf");
 }
 /*********************************/
 
-*{
-   box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-body{
-   margin: 0;
+body {
+  margin: 0;
 }
 
-main{
-
+main {
 }
 /** CONTACT **/
-.main-contact{
-   background: #515f67;
-   color: white;
+.main-contact {
+  background: #515f67;
+  color: white;
 }
 
-.header-contact h2{
-   margin: 0;
-   display: inline-block;
-   text-transform: uppercase;
-   font-family: "segoe-light";
+.header-contact h2 {
+  margin: 0;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "segoe-light";
 }
 
-.header-contact h2 span{
-   text-decoration: underline;
+.header-contact h2 span {
+  text-decoration: underline;
 }
 /************Twitter******************/
 
-.background-twitter{
-  
-   height:306px;
-   background:#4bcaff;
-   top: 2522px;
-   position: relative;
+.background-twitter {
+  height: 306px;
+  background: #4bcaff;
+  top: 2522px;
+  position: relative;
+}
+.twitter {
+  text-decoration: underline;
+  color: white;
+}
+.text {
+  color: white;
+  font-family: "segoe-light";
+  left: 305px;
+  position: relative;
+  top: 81px;
+  font-size: 30px;
+  display: inline-block;
+}
+p {
+  left: 305px;
+  color: white;
+  font-family: "segoe-light";
+  font-size: 28px;
+  font-weight: lighter;
+  position: relative;
+   top: 81px;
+}
+div.test .bold {
+  font-weight: 900;
+}
+div.test {
+  background-color: transparent;
+  left: 375;
+  top: 2522px;
+  right: 375;
+  bottom: 1922;
+  position: absolute;
+}
+/*****************who is*****************/
+.hero-image {
+  background-image: url("file:///C:/Users/stagiaire%20acs/Desktop/blueasy/asset/img/who_is.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  top: 2520px;
+}
 
+.hero-text {
+  position: absolute;
+  top: 100px;
+  left: 375px;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  text-decoration: none;
 }
-.twitter{
-   text-decoration: underline;
-   color: white;
+.whois {
+  text-decoration: underline;
+  color: white;
 }
-.text{   
+#container p {
+  width: 50%;
+}
+p#par1 {
+  font-size: 14px;
+  float: left;
+  text-align: left;
+  left: 375px;
+  font-weight: lighter;
+  color: white;
+  font-family: "segoe-light";
+}
+
+p#par2 {
+  font-size: 14px;
+  float: right;
+  text-align: left;
+  left: 430px;
+  font-weight: lighter;
+  color: white;
+  font-family: "segoe-light";
+}
+.WHOIS2   {
    color: white;
    font-family: "segoe-light";
    left: 375px;
    position: relative;
    top: 81px;
    font-size: 30px;
-   
-   
-}
-div.test p {
-   left: 375px;
-   color: white;
-   font-family: "segoe-light";
-   font-size: 28px;
-   position: relative;
-   font-weight: lighter;
-   top: 81px;
-  
-   
-   
-}
-div.test .bold {
-   font-weight:900;
-   
-   
-   
-}
-div.test img {
-
-   position: relative;
-}
-div.test{
-   background-color: transparent;
-
+   display: inline-block;
 }
