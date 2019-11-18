@@ -33,6 +33,9 @@ marge du contenu main -> 375px
 
 body {
    margin: 0;
+   /*
+   width: 1920px;
+   */
 }
 
 /************** NAV BAR **************/
@@ -132,6 +135,88 @@ body {
 
 .wrap-hero .quote2 {
    margin-top: 6px;
+}
+
+/***************** PORTFOLIO *****************/
+
+.conteneur_portfolio {
+   margin: 0px 375px 65px 375px;
+}
+
+.header_portfolio {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+.titre_portfolio {
+   margin: 80px 0px 0px 0px;
+}
+
+.titre_portfolio h2 {
+   font-family: "segoe-light";
+   font-size: 1.87rem;
+}
+.titre_portfolio #trait {
+   background-color: black;
+}
+
+
+.nav_portfolio ul li {
+   display: inline-block;
+   
+}
+
+.nav_portfolio ul li a {
+   color: #69747b;
+   font-family: "segoe-bold";
+   text-decoration: none;
+   border:solid 2px transparent;
+   padding: 8px 16px;
+   margin: 7px;
+}
+
+.nav_portfolio ul li a:hover {
+   color: #4bcaff;
+   border:solid 2px #4bcaff;
+   box-sizing: border-box;
+}
+
+
+.conteneur_img_portfolio{
+   margin: 0px 360px 66px 360px;
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.img_portfolio a{
+   display: inline-block;
+   overflow: hidden;
+   height: 270px;
+   width: 270px;
+   margin: 15px;
+   opacity: 0.85;
+   background-color: #353f47;
+   position: relative;
+}
+
+.img_portfolio a .cross { 
+   color: white;
+   font-size: 5rem;
+   font-family: "segoe-light";
+   position: absolute;
+   top: 50%; 
+   left: 50%;
+   transform: translate(-50%,-50%);
+   opacity: 0%;
+}
+
+.img_portfolio a:hover .cross{
+   opacity: 100%;
+}
+.img_portfolio a img:hover {
+   opacity: 0.3;
 }
 
 
