@@ -55,45 +55,40 @@ main {
   text-decoration: underline;
 }
 /************Twitter******************/
-
 .background-twitter {
+  background-color: #4bcaff;
   height: 306px;
-  background: #4bcaff;
-  top: 2522px;
-  position: relative;
 }
-.twitter {
+.Twitter {
   text-decoration: underline;
   color: white;
 }
-.text {
+.twitter {
   color: white;
   font-family: "segoe-light";
-  left: 305px;
+  left: 215px;
   position: relative;
-  top: 81px;
+  top: 41px;
   font-size: 30px;
   display: inline-block;
 }
-p {
-  left: 305px;
+.P-Twitter {
+  left: 215px;
   color: white;
   font-family: "segoe-light";
-  font-size: 28px;
-  font-weight: lighter;
-  position: relative;
-   top: 81px;
-}
-div.test .bold {
-  font-weight: 900;
-}
-div.test {
-  background-color: transparent;
-  left: 375;
-  top: 2522px;
-  right: 375;
-  bottom: 1922;
+  top: 120px;
   position: absolute;
+  font-size: 28px;
+  right: auto;
+}
+.bolder {
+  font-family: "segoe-bold";
+  font-weight: bold;
+}
+.icon-twitter {
+  position: relative;
+  left: 1013px;
+  height: auto;
 }
 /*****************who is*****************/
 .hero-image {
@@ -101,23 +96,12 @@ div.test {
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  top: 2520px;
-}
-
-.hero-text {
-  position: absolute;
-  top: 100px;
-  left: 375px;
-  transform: translate(-50%, -50%);
-  font-size: 30px;
-  text-decoration: none;
 }
 .whois {
   text-decoration: underline;
   color: white;
 }
+
 #container p {
   width: 50%;
 }
@@ -125,27 +109,78 @@ p#par1 {
   font-size: 14px;
   float: left;
   text-align: left;
-  left: 375px;
+  left: 215px;
   font-weight: lighter;
   color: white;
   font-family: "segoe-light";
+  line-height: 25px;
+  top: 60px;
+  position: relative;
 }
 
 p#par2 {
   font-size: 14px;
   float: right;
   text-align: left;
-  left: 430px;
+  left: 0px;
   font-weight: lighter;
   color: white;
   font-family: "segoe-light";
+  line-height: 25px;
+  top: 60px;
+  position: relative;
 }
-.WHOIS2   {
-   color: white;
-   font-family: "segoe-light";
-   left: 375px;
-   position: relative;
-   top: 81px;
-   font-size: 30px;
-   display: inline-block;
+.WHOIS2 {
+  color: white;
+  font-family: "segoe-light";
+  left: 215px;
+  position: relative;
+  top: 41px;
+  font-size: 30px;
+  display: inline-block;
+}
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img-twitter {
+  position: relative;
+  top: 67px;
+  height: 14px;
+  width: 60px;
+  border: 2px solid white;
+  padding: 30px;
+  display: inline-block;
+}
+.img-google {
+  position: relative;
+  top: 67px;
+  width: 60px;
+  left: 15px;
+  height: 14px;
+  border: 2px solid white;
+  padding: 30px;
+  display: inline-block;
+}
+.img-dribbble {
+  position: relative;
+  top: 67px;
+  height: 10px;
+  left: 30px;
+  width: 60px;
+  border: 2px solid white;
+  padding: 30px;
+  display: inline-block;
+}
+.img-coffee2 {
+  position: relative;
+  top: 67px;
+  height: 14px;
+  width: 60px;
+  left: 45px;
+  border: 2px solid white;
+  padding: 30px;
+  display: inline-block;
 }
