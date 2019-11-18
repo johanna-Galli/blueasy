@@ -5,6 +5,8 @@
 #515f67 -> gris
 #39444b -> gris header
 #353f46 -> gris foncé visit me
+#353f47 -> gris foncé :hover img portfolio
+#69747b -> gris menu portfolio
 
 marge du contenu main -> 375px
 
@@ -19,13 +21,13 @@ marge du contenu main -> 375px
 
 @font-face {
    font-family: "segoe-regular";
-   src: url('../font/segoe_ui_regular.ttf');
+   src: url('../font/segoe_ui.ttf');
 }
 
 @font-face {
    font-family: "segoe-bold";
    font-weight: bold;
-   src: url('../fontsegoe_ui_bold.ttf');
+   src: url('../font/segoe_ui_bold.ttf');
 }
 /*********************************/
 
@@ -46,8 +48,13 @@ body{
    margin: 0px 375px 65px 375px;
 }
 
+.header_portfolio {
+   display: flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
 .titre_portfolio {
-   display: inline-block;
    margin: 80px 0px 0px 0px;
 }
 
@@ -55,30 +62,27 @@ body{
    font-family: "segoe-light";
    font-size: 1.87rem;
 }
-
-hr{
-   
+.titre_portfolio #trait {
+   background-color: black;
 }
 
-.menu_portfolio {
-   display: inline-block;
-}
 
 .nav_portfolio ul li {
    display: inline-block;
+   
 }
 
-a {
-   font-family: "segoe-light";
+
+.nav_portfolio ul li a {
+   color: #69747b;
+   font-family: "segoe-bold";
    text-decoration: none;
-   text-decoration-color: #515f67;
+   border:solid 2px transparent;
    padding: 8px 16px;
-   margin: 9px;
-   border: solid 2px white;
-   box-sizing: border-box ;
+   margin: 7px;
 }
 
-a:hover {
+.nav_portfolio ul li a:hover {
    color: #4bcaff;
    border:solid 2px #4bcaff;
    box-sizing: border-box;
@@ -87,15 +91,40 @@ a:hover {
 
 .conteneur_img_portfolio{
    margin: 0px 360px 66px 360px;
+   display: flex;
+   flex-wrap: wrap;
+   position: relative;
 }
-.img_portfolio {
+
+.img_portfolio a{
    display: inline-block;
    overflow: hidden;
-   height: 260px;
-   width: 260px;
+   height: 270px;
+   width: 270px;
    margin: 15px;
+   opacity: 0.85;
+   background-color: #353f47;
+   position: relative;
+}
+
+.img_portfolio a .cross { 
+   color: white;
+   font-size: 5rem;
+   font-family: "segoe-light";
+   position: absolute;
+   top: 50%; 
+   left: 50%;
+   transform: translate(-50%,-50%);
+   opacity: 0%;
+}
+
+.img_portfolio a:hover .cross{
+   opacity: 100%;
+}
+.img_portfolio a img:hover {
+   opacity: 0.3;
 }
 
 
-
+   
 /************************************************/
