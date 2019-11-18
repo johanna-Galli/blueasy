@@ -10,13 +10,13 @@ marge du contenu main -> 375px
 
 /************** FONTS **************/
 @font-face {
-   font-family: "segoe-light";
-   src: url('../font/segoe_ui_light.ttf');
+  font-family: "segoe-light";
+  src: url("../font/segoe_ui_light.ttf");
 }
 
 @font-face {
-   font-family: "segoe-regular";
-   src: url('../font/segoe_ui_regular.ttf');
+  font-family: "segoe-regular";
+  src: url("../font/segoe_ui_regular.ttf");
 }
 
 @font-face {
@@ -262,3 +262,135 @@ textarea {
    width: 550px;
    height: 200px;
 }
+
+   /************Twitter******************/
+.twitter-container {
+   background-color: #4bcaff;
+   height: 306px;
+ }
+ .titre {
+   text-decoration: underline;
+   color: white;
+ }
+ .twitter {
+   color: white;
+   font-family: "segoe-light";
+   left: 215px;
+   position: relative;
+   top: 41px;
+   font-size: 30px;
+   display: inline-block;
+ }
+ .twitter-text {
+   left: 215px;
+   color: white;
+   font-family: "segoe-light";
+   top: 20px;
+   position: relative;
+   font-size: 28px;
+   right: auto;
+ }
+ .bolder {
+   font-family: "segoe-bold";
+   font-weight: bold;
+ }
+ .icon-twitter {
+   position: relative;
+   left: 1013px;
+   height: auto;
+ }
+ /*****************who is*****************/
+ .whois-container {
+   background-image: url("file:///C:/Users/stagiaire%20acs/Desktop/blueasy/asset/img/who_is.jpg");
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+ }
+ .whois {
+   text-decoration: underline;
+   color: white;
+ }
+ 
+ #wrap p {
+   width: 50%;
+ }
+ p#part-1 {
+   font-size: 14px;
+   float: left;
+   text-align: left;
+   left: 215px;
+   font-weight: lighter;
+   color: white;
+   font-family: "segoe-light";
+   line-height: 25px;
+   top: 60px;
+   position: relative;
+ }
+ 
+ p#part-2 {
+   font-size: 14px;
+   float: right;
+   text-align: left;
+   left: 0px;
+   font-weight: lighter;
+   color: white;
+   font-family: "segoe-light";
+   line-height: 25px;
+   top: 60px;
+   position: relative;
+ }
+ .who-is-titre {
+   color: white;
+   font-family: "segoe-light";
+   left: 215px;
+   position: relative;
+   top: 41px;
+   font-size: 30px;
+   display: inline-block;
+ }
+ .icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+ }
+ .img-twitter {
+   position: relative;
+   top: 67px;
+   height: 14px;
+   width: 60px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+ }
+ .img-google {
+   position: relative;
+   top: 67px;
+   width: 60px;
+   left: 15px;
+   height: 14px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+ }
+ .img-dribbble {
+   position: relative;
+   top: 67px;
+   height: 10px;
+   left: 30px;
+   width: 60px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+ }
+ .img-coffee2 {
+   position: relative;
+   top: 67px;
+   height: 14px;
+   width: 60px;
+   left: 45px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+ }
+
