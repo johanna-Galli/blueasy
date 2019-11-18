@@ -91,19 +91,57 @@ body {
    font-size: 0.87rem;
    padding: 10px 20px;
    border: solid 2px #39444b;
-   font-family: "segoe-bold";
+   font-family: "segoe-bold", sans-serif;
 }
 
 .nav-menu ul li a:hover{
    border: 2px solid #4bcaff;
 }
 
+/********* Hero ************/
+
+.main-hero {
+   background: url("../img/hero.jpg");
+   height: 800px;
+   margin-top: -165px;
+}
+.wrap-hero {
+   margin: 0 375px;
+   padding: 400px 90px 235px;
+
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+}
+
+.wrap-hero p {
+   color: #ffffff;
+   background-color: #39444b;
+   text-align: center;
+
+   opacity: 0.95;
+   font-family: "segoe-light", sans-serif;
+   font-size: 42px;
+   text-transform: uppercase;
+}
+
+.wrap-hero .quote1 {
+   margin: auto auto 6px;
+   padding: 0 5px;
+}
+
+.wrap-hero .quote2 {
+   margin-top: 6px;
+}
+
+
 /********* TESTIMONIALS ************/
 .main-testimonials {
    color: #515f67;
 }
 
-.wrap-testimonials{
+
+.wrap-testimonials {
    margin: 0 375px;
 }
 
