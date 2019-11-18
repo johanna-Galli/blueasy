@@ -85,14 +85,13 @@ body {
 
 
 .nav-menu ul li a{
-   font-family: "segoe-regular", sans-serif;
    text-transform: uppercase;
    color: #ffffff;
    text-decoration: none;
    font-size: 0.87rem;
    padding: 10px 20px;
    border: solid 2px #39444b;
-   font-family: "segoe-bold";
+   font-family: "segoe-bold", sans-serif;
 }
 
 .nav-menu ul li a:hover{
@@ -104,11 +103,8 @@ body {
    color: #515f67;
 }
 
-<<<<<<< HEAD
-.wrap-testimonials{
-=======
+
 .wrap-testimonials {
->>>>>>> c888ce42f976cde219bdda9bd35aba82a42b3559
    margin: 0 375px;
 }
 
@@ -118,7 +114,6 @@ body {
    align-items: baseline;
 }
 
-<<<<<<< HEAD
 .header-testimonials h2{
    margin: 70px 0 40px 0;
    padding: 10px 0;
