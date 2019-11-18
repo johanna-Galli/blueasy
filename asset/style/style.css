@@ -85,7 +85,6 @@ body {
 
 
 .nav-menu ul li a{
-   font-family: "segoe-regular", sans-serif;
    text-transform: uppercase;
    color: #ffffff;
    text-decoration: none;
@@ -104,11 +103,7 @@ body {
    color: #515f67;
 }
 
-<<<<<<< HEAD
 .wrap-testimonials{
-=======
-.wrap-testimonials {
->>>>>>> c888ce42f976cde219bdda9bd35aba82a42b3559
    margin: 0 375px;
 }
 
@@ -118,7 +113,6 @@ body {
    align-items: baseline;
 }
 
-<<<<<<< HEAD
 .header-testimonials h2{
    margin: 70px 0 40px 0;
    padding: 10px 0;
@@ -153,6 +147,7 @@ body {
 
 .wrap-contact {
    margin: 0 375px;
+   position: relative;
 }
 
 .header-contact h2 {
@@ -222,8 +217,8 @@ textarea {
 
 .info-contact {
    position: absolute;
-   top: 570px;
-   right: 400px;
+   top: 25%;
+   left: 70%;
 }
 
 .info-contact p {
