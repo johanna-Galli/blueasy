@@ -10,8 +10,7 @@ marge du contenu main -> 375px
 
 **/
 
-
-/************** FONT *************/
+/************** FONTS **************/
 @font-face {
    font-family: "segoe-light";
    src: url('../font/segoe_ui_light.ttf');
@@ -19,115 +18,92 @@ marge du contenu main -> 375px
 
 @font-face {
    font-family: "segoe-regular";
-   src: url('../font/segoe_ui.ttf');
+   src: url('../font/segoe_ui_regular.ttf');
 }
 
 @font-face {
    font-family: "segoe-bold";
-   src: url('../font/segoe_ui_bold.ttf');
+   font-weight: bold;
+   src: url('../fontsegoe_ui_bold.ttf');
 }
-/*********************************/
 
-*{
+/************** Reset CSS **************/
+
+* {
    box-sizing: border-box;
-   font-family: "segoe-light";
 }
 
-body{
+body {
    margin: 0;
 }
 
-main{
+/************** NAV BAR **************/
 
+#nav-bar {
+   color: #ffffff;
+   background: #39444b;
+   opacity: 0.75;
 }
 
-/********* CONTACT ************/
+#nav-bar div {
+   margin: 0 375px;
+}
+
+#nav-bar h1 {
+   font-family: "segoe-regular", sans-serif;
+   display: inline-block;
+   font-size: 21px;
+   margin: 65px 518px 65px 0 ;
+   text-transform: uppercase;
+}
+
+#nav-bar h1 #logo-color {
+   color: #4bcaff;
+}
+
+#nav-bar nav {
+   display: inline-block;
+}
+
+#nav-bar ul {
+   padding: 0;
+   margin: 0;
+}
+
+#nav-bar ul li {
+   display: inline-block;
+}
+
+#nav-bar a {
+   font-family: "segoe-regular", sans-serif;
+   text-transform: uppercase;
+   color: #ffffff;
+   text-decoration: none;
+   font-size: 10px;
+   padding: 10px 18px;
+   margin: 0 8px;
+   border: 2px solid #39444b;
+}
+
+#nav-bar a:hover {
+   border: 2px solid #4bcaff;
+}
+
+/************* END NAV BAR *************
+
+/** CONTACT **/
 .main-contact{
    background: #515f67;
    color: white;
-   background-image: url("../img/contact.jpg");
-   opacity: rgba(0,0,0,0.1);
-}
-
-.wrap-contact{
-   margin: 0px 375px;
 }
 
 .header-contact h2{
-   margin: 70px 0px 40px 0px;
-   padding: 10px 0px;
+   margin: 0;
    display: inline-block;
    text-transform: uppercase;
    font-family: "segoe-light";
-   font-size: 1.87rem;
 }
 
 .header-contact h2 span{
-   font-family: "segoe-light";
-   margin-bottom: 10px;
-   border-bottom: solid 2px;
+   text-decoration: underline;
 }
-
-
-.form-contact{
-   padding-bottom: 70px;
-}
-
-label{
-   display: block;
-   font-family: "segoe-bold";
-   font-weight: normal;
-   font-size: 0.87rem;
-   text-transform: uppercase;
-}
-
-input,textarea{
-   display: block;
-   margin: 10px 0px 40px 0px;
-   color: white;
-   font-size: 1rem;
-   font-family: "segoe-light";
-}
-
-input{
-   height: 60px;
-   width: 465px;
-   background-color: rgba(0,0,0,0);
-   border: solid 2px white;
-}
-
-textarea{
-   width: 1165px;
-   background-color: rgba(0,0,0,0);
-   border: solid 2px white;
-   resize : none;
-}
-
-#button{
-   margin: 0;
-   background: #4bcaff;
-   border: none;
-   color: white;
-   font-size: 0.87rem;
-   font-family: "segoe-bold";
-   font-weight: normal;
-   text-transform: uppercase;
-}
-
-#button:hover{
-   cursor: pointer;
-}
-
-.info-contact{
-   position: absolute;
-   top: 200px;
-   right: 400px;
-}
-
-.info-contact p{
-   margin: 0;
-   width: 550px;
-   height: 200px;
-}
-
-/*********************************/
