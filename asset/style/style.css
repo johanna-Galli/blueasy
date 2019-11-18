@@ -86,46 +86,46 @@ body {
 #nav-bar a:hover {
    border: 2px solid #4bcaff;
 }
+
 /********* TESTIMONIALS ************/
-.main-testimonials{
+.main-testimonials {
    color: #515f67;
 }
 
-.wrap-testimonials{
-   margin: 0px 375px;
+.wrap-testimonials {
+   margin: 0 375px;
 }
 
-.header-testimonials{
+.header-testimonials {
    display: flex;
    justify-content: space-between;
    align-items: baseline;
 }
 
-.header-testimonials h2{
-   margin: 70px 0px 40px 0px;
-   padding: 10px 0px;
+.header-testimonials h2 {
+   margin: 70px 0 40px 0;
+   padding: 10px 0;
    display: inline-block;
    text-transform: uppercase;
-   font-family: "segoe-light";
+   font-family: "segoe-light", sans-serif;
    font-size: 1.87rem;
 }
 
-.header-testimonials h2 span{
-   font-family: "segoe-light";
+.header-testimonials h2 span {
+   font-family: "segoe-light", sans-serif;
    margin-bottom: 10px;
    border-bottom: solid 2px;
 }
 
-.info-testimonials{
+.info-testimonials {
    font-size: 1.75rem;
 }
 
-.info-testimonials .signature{
+.info-testimonials .signature {
    font-size: 0.87rem;
    color: #4bcaff;
-   font-family: "segoe-bold";
+   font-family: "segoe-bold", sans-serif;
 }
-/**********************************/
 
 /********* CONTACT ************/
 .main-contact {
@@ -133,14 +133,9 @@ body {
    background: #515f67 url("../img/contact.jpg");
    opacity: 0.1;
 }
-<<<<<<< HEAD
 
 .wrap-contact {
    margin: 0 375px;
-=======
-.wrap-contact{
-   margin: 0px 375px;
->>>>>>> testimonials
 }
 
 .header-contact h2 {
