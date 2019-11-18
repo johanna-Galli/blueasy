@@ -2,7 +2,7 @@
 Intégration d'une maquette en groupe ACS 2019
 
 Etienne 
-- Header
+- ~~Header~~
 - Hero
 - Service
 
@@ -15,8 +15,8 @@ Ilias
 - Who is?
 
 Thomas
-- Testomonid
-- Contact
+- ~~Testomonid~~
+- ~~Contact~~
 
 Bonus:
 - Footer
