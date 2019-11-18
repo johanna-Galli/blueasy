@@ -1,13 +1,11 @@
 /** COLORS
 
-
 #4bcaff -> bleu clair
 #515f67 -> gris
 #39444b -> gris header
 #353f46 -> gris foncé visit me
 
 marge du contenu main -> 375px
-
 **/
 
 /************** FONTS **************/
@@ -23,14 +21,14 @@ marge du contenu main -> 375px
 
 @font-face {
    font-family: "segoe-bold";
-   font-weight: bold;
-   src: url('../fontsegoe_ui_bold.ttf');
+   src: url('../font/segoe_ui_bold.ttf');
 }
 
 /************** Reset CSS **************/
 
 * {
    box-sizing: border-box;
+   font-family: "segoe-light", sans-serif;
 }
 
 body {
@@ -53,7 +51,7 @@ body {
    font-family: "segoe-regular", sans-serif;
    display: inline-block;
    font-size: 21px;
-   margin: 65px 518px 65px 0 ;
+   margin: 65px 518px 65px 0;
    text-transform: uppercase;
 }
 
@@ -89,21 +87,91 @@ body {
    border: 2px solid #4bcaff;
 }
 
-/************* END NAV BAR *************
-
-/** CONTACT **/
-.main-contact{
-   background: #515f67;
+/********* CONTACT ************/
+.main-contact {
    color: white;
+   background: #515f67 url("../img/contact.jpg");
+   opacity: 0.1;
 }
 
-.header-contact h2{
-   margin: 0;
+.wrap-contact {
+   margin: 0 375px;
+}
+
+.header-contact h2 {
+   margin: 70px 0 40px 0;
+   padding: 10px 0;
    display: inline-block;
    text-transform: uppercase;
-   font-family: "segoe-light";
+   font-family: "segoe-light", sans-serif;
+   font-size: 1.87rem;
 }
 
-.header-contact h2 span{
-   text-decoration: underline;
+.header-contact h2 span {
+   font-family: "segoe-light", sans-serif;
+   margin-bottom: 10px;
+   border-bottom: solid 2px;
 }
+
+
+.form-contact {
+   padding-bottom: 70px;
+}
+
+label {
+   display: block;
+   font-family: "segoe-bold", sans-serif;
+   font-weight: normal;
+   font-size: 0.87rem;
+   text-transform: uppercase;
+}
+
+input, textarea {
+   display: block;
+   margin: 10px 0 40px 0;
+   color: white;
+   font-size: 1rem;
+   font-family: "segoe-light", sans-serif;
+}
+
+input {
+   height: 60px;
+   width: 465px;
+   background-color: rgba(0, 0, 0, 0);
+   border: solid 2px white;
+}
+
+textarea {
+   width: 1165px;
+   background-color: rgba(0, 0, 0, 0);
+   border: solid 2px white;
+   resize: none;
+}
+
+#button {
+   margin: 0;
+   background: #4bcaff;
+   border: none;
+   color: white;
+   font-size: 0.87rem;
+   font-family: "segoe-bold", sans-serif;
+   font-weight: normal;
+   text-transform: uppercase;
+}
+
+#button:hover {
+   cursor: pointer;
+}
+
+.info-contact {
+   position: absolute;
+   top: 200px;
+   right: 400px;
+}
+
+.info-contact p {
+   margin: 0;
+   width: 550px;
+   height: 200px;
+}
+
