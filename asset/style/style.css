@@ -236,24 +236,29 @@ body {
 }
    
 
-.titre_section {
-   margin: 0;
+.conteneur_texte_section h2 {
+   margin-top: 0;
+   margin-bottom: 0;
    font-size: 1.87rem;
    font-family: "segoe-light";
 }
 
-.titre_section span {
+.conteneur_texte_section h2 span {
    border-bottom: solid 2px white;
 }
 
 .texte_section p {
-   margin-block-start: 2,5em;
+   top: 40px ;
    font-family: "segoe-regular";
    font-size: 0.875rem;
    color: white;
 }
 
 .bouton_section {
+ margin-top: 33px;
+}
+
+.bouton_section a {
    color: #353f46;
    font-family: "segoe-bold";
    text-decoration: none;
@@ -262,6 +267,7 @@ body {
 }
 .conteneur_video_section {
    margin: 80px 0px;
+   opacity: 0.7;
 }
 
 
