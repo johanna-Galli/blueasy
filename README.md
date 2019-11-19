@@ -3,12 +3,12 @@ Intégration d'une maquette en groupe ACS 2019
 
 Etienne 
 - ~~Header~~
-- Hero
-- Service
+- ~~Hero~~
+- ~~Service~~
 
 Johanna
-- Portfolio
-- Section
+- ~~Portfolio~~
+- ~~Section~~
 
 Ilias
 - Twitter
@@ -19,4 +19,4 @@ Thomas
 - ~~Contact~~
 
 Bonus:
-- Footer
+- ~~Footer~~
