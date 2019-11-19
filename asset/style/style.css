@@ -219,6 +219,51 @@ body {
    opacity: 0.3;
 }
 
+/************* SECTION ***************/
+.main_section {
+   background-color: #515f67;
+}
+
+.conteneur_section {
+   margin: 0px 375px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.conteneur_texte_section {
+   margin: 80px 146px 80px 0px ;
+   color: white;
+}
+   
+
+.titre_section {
+   margin: 0;
+   font-size: 1.87rem;
+   font-family: "segoe-light";
+}
+
+.titre_section span {
+   border-bottom: solid 2px white;
+}
+
+.texte_section p {
+   margin-block-start: 2,5em;
+   font-family: "segoe-regular";
+   font-size: 0.875rem;
+   color: white;
+}
+
+.bouton_section {
+   color: #353f46;
+   font-family: "segoe-bold";
+   text-decoration: none;
+   border:solid 2px #353f46;
+   padding: 16px 39px; 
+}
+.conteneur_video_section {
+   margin: 80px 0px;
+}
+
 
 /********* TESTIMONIALS ************/
 .main-testimonials {
