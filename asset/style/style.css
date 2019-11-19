@@ -10,13 +10,13 @@ marge du contenu main -> 375px
 
 /************** FONTS **************/
 @font-face {
-  font-family: "segoe-light";
-  src: url("../font/segoe_ui_light.ttf");
+   font-family: "segoe-light";
+   src: url("../font/segoe_ui_light.ttf");
 }
 
 @font-face {
-  font-family: "segoe-regular";
-  src: url("../font/segoe_ui_regular.ttf");
+   font-family: "segoe-regular";
+   src: url("../font/segoe_ui_regular.ttf");
 }
 
 @font-face {
@@ -24,8 +24,7 @@ marge du contenu main -> 375px
    src: url('../font/segoe_ui_bold.ttf');
 }
 
-/************** Reset CSS **************/
-
+/************** RESET CSS **************/
 * {
    box-sizing: border-box;
    font-family: "segoe-light", sans-serif;
@@ -39,24 +38,24 @@ body {
 }
 
 /************** NAV BAR **************/
-.nav-bar{
+.nav-bar {
    color: #ffffff;
    background: #39444b;
    opacity: 0.75;
 }
 
-.wrapper-nav{
+.wrapper-nav {
    margin: 0 375px;
    display: flex;
    justify-content: space-between;
    align-items: baseline;
 }
 
-.titre-menu{
+.titre-menu {
    display: inline-block;
 }
 
-.titre-menu h1{
+.titre-menu h1 {
    font-family: "segoe-regular", sans-serif;
    font-size: 1.87rem;
    margin: 65px 0 65px 0;
@@ -64,12 +63,12 @@ body {
    cursor: pointer;
 }
 
-.titre-menu h1 .logo-color{
+.titre-menu h1 .logo-color {
    font-family: "segoe-regular", sans-serif;
    color: #4bcaff;
 }
 
-.nav-menu{
+.nav-menu {
    display: inline-block;
    text-align: center;
 }
@@ -80,14 +79,14 @@ body {
    height: 34px;
 }
 
-.nav-menu ul li{
+.nav-menu ul li {
    margin: 20px 10px;
    padding: 0;
    display: inline-block;
 }
 
 
-.nav-menu ul li a{
+.nav-menu ul li a {
    text-transform: uppercase;
    color: #ffffff;
    text-decoration: none;
@@ -97,17 +96,18 @@ body {
    font-family: "segoe-bold", sans-serif;
 }
 
-.nav-menu ul li a:hover{
+.nav-menu ul li a:hover {
    border: 2px solid #4bcaff;
+   color: #4bcaff;
 }
 
-/********* Hero ************/
-
+/************** HERO **************/
 .main-hero {
    background: url("../img/hero.jpg");
    height: 800px;
    margin-top: -165px;
 }
+
 .wrap-hero {
    margin: 0 375px;
    padding: 400px 90px 235px;
@@ -137,10 +137,12 @@ body {
    margin-top: 6px;
 }
 
-/***************** PORTFOLIO *****************/
+/************** SERVICES **************/
 
+
+/************** PORTFOLIO **************/
 .conteneur_portfolio {
-   margin: 0px 375px 65px 375px;
+   margin: 0 375px 65px 375px;
 }
 
 .header_portfolio {
@@ -150,13 +152,14 @@ body {
 }
 
 .titre_portfolio {
-   margin: 80px 0px 0px 0px;
+   margin: 80px 0 0 0;
 }
 
 .titre_portfolio h2 {
-   font-family: "segoe-light";
+   font-family: "segoe-light", sans-serif;
    font-size: 1.87rem;
 }
+
 .titre_portfolio #trait {
    background-color: black;
 }
@@ -164,33 +167,32 @@ body {
 
 .nav_portfolio ul li {
    display: inline-block;
-   
+
 }
 
 .nav_portfolio ul li a {
    color: #69747b;
-   font-family: "segoe-bold";
+   font-family: "segoe-bold", sans-serif;
    text-decoration: none;
-   border:solid 2px transparent;
+   border: solid 2px transparent;
    padding: 8px 16px;
    margin: 7px;
 }
 
 .nav_portfolio ul li a:hover {
    color: #4bcaff;
-   border:solid 2px #4bcaff;
+   border: solid 2px #4bcaff;
    box-sizing: border-box;
 }
 
-
-.conteneur_img_portfolio{
-   margin: 0px 360px 66px 360px;
+.conteneur_img_portfolio {
+   margin: 0 360px 66px 360px;
    display: flex;
    flex-wrap: wrap;
    position: relative;
 }
 
-.img_portfolio a{
+.img_portfolio a {
    display: inline-block;
    overflow: hidden;
    height: 270px;
@@ -201,30 +203,182 @@ body {
    position: relative;
 }
 
-.img_portfolio a .cross { 
+.img_portfolio a .cross {
    color: white;
    font-size: 5rem;
-   font-family: "segoe-light";
+   font-family: "segoe-light", sans-serif;
    position: absolute;
-   top: 50%; 
+   top: 50%;
    left: 50%;
-   transform: translate(-50%,-50%);
-   opacity: 0%;
+   transform: translate(-50%, -50%);
+   opacity: 0;
 }
 
-.img_portfolio a:hover .cross{
+.img_portfolio a:hover .cross {
    opacity: 100%;
 }
+
 .img_portfolio a img:hover {
    opacity: 0.3;
 }
 
+/************** SECTION **************/
 
-/********* TESTIMONIALS ************/
+
+/************** TWITTER **************/
+.main-twitter {
+   background-color: #4bcaff;
+   font-family: "segoe-light", sans-serif;
+   height: 306px;
+   color: #ffffff;
+}
+
+.twitter-container {
+   margin: 375px;
+}
+
+.main-twitter .titre {
+   text-decoration: underline;
+}
+
+.twitter {
+   left: 215px;
+   position: relative;
+   top: 41px;
+   font-size: 30px;
+   display: inline-block;
+}
+
+.twitter-text {
+   left: 215px;
+   top: 20px;
+   position: relative;
+   font-size: 28px;
+   right: auto;
+}
+
+.bolder {
+   font-family: "segoe-bold", sans-serif;
+   font-weight: bold;
+}
+
+.icon-twitter {
+   position: relative;
+   left: 1013px;
+   height: auto;
+}
+
+/************** WHO IS **************/
+.main-whois {
+   background-image: url("../img/who_is.jpg");
+   height: 500px;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+.whois-container {
+   margin: 375px;
+}
+
+.whois {
+   text-decoration: underline;
+   color: white;
+}
+
+#wrap p {
+   width: 50%;
+}
+
+p#part-1 {
+   font-size: 14px;
+   float: left;
+   text-align: left;
+   left: 215px;
+   font-weight: lighter;
+   color: white;
+   font-family: "segoe-light", sans-serif;
+   line-height: 25px;
+   top: 60px;
+   position: relative;
+}
+
+p#part-2 {
+   font-size: 14px;
+   float: right;
+   text-align: left;
+   left: 0;
+   font-weight: lighter;
+   color: white;
+   font-family: "segoe-light", sans-serif;
+   line-height: 25px;
+   top: 60px;
+   position: relative;
+}
+
+.who-is-titre {
+   color: white;
+   font-family: "segoe-light", sans-serif;
+   left: 215px;
+   position: relative;
+   top: 41px;
+   font-size: 30px;
+   display: inline-block;
+}
+
+.icon {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+.img-twitter {
+   position: relative;
+   top: 67px;
+   height: 14px;
+   width: 60px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+}
+
+.img-google {
+   position: relative;
+   top: 67px;
+   width: 60px;
+   left: 15px;
+   height: 14px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+}
+
+.img-dribbble {
+   position: relative;
+   top: 67px;
+   height: 10px;
+   left: 30px;
+   width: 60px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+}
+
+.img-coffee2 {
+   position: relative;
+   top: 67px;
+   height: 14px;
+   width: 60px;
+   left: 45px;
+   border: 2px solid white;
+   padding: 30px;
+   display: inline-block;
+}
+
+/************** TESTIMONIALS **************/
 .main-testimonials {
    color: #515f67;
 }
-
 
 .wrap-testimonials {
    margin: 0 375px;
@@ -236,7 +390,7 @@ body {
    align-items: baseline;
 }
 
-.header-testimonials h2{
+.header-testimonials h2 {
    margin: 70px 0 40px 0;
    padding: 10px 0;
    display: inline-block;
@@ -349,135 +503,3 @@ textarea {
    width: 550px;
    height: 200px;
 }
-
-   /************Twitter******************/
-.twitter-container {
-   background-color: #4bcaff;
-   height: 306px;
- }
- .titre {
-   text-decoration: underline;
-   color: white;
- }
- .twitter {
-   color: white;
-   font-family: "segoe-light";
-   left: 215px;
-   position: relative;
-   top: 41px;
-   font-size: 30px;
-   display: inline-block;
- }
- .twitter-text {
-   left: 215px;
-   color: white;
-   font-family: "segoe-light";
-   top: 20px;
-   position: relative;
-   font-size: 28px;
-   right: auto;
- }
- .bolder {
-   font-family: "segoe-bold";
-   font-weight: bold;
- }
- .icon-twitter {
-   position: relative;
-   left: 1013px;
-   height: auto;
- }
- /*****************who is*****************/
- .whois-container {
-   background-image: url("file:///C:/Users/stagiaire%20acs/Desktop/blueasy/asset/img/who_is.jpg");
-   height: 500px;
-   background-position: center;
-   background-repeat: no-repeat;
- }
- .whois {
-   text-decoration: underline;
-   color: white;
- }
- 
- #wrap p {
-   width: 50%;
- }
- p#part-1 {
-   font-size: 14px;
-   float: left;
-   text-align: left;
-   left: 215px;
-   font-weight: lighter;
-   color: white;
-   font-family: "segoe-light";
-   line-height: 25px;
-   top: 60px;
-   position: relative;
- }
- 
- p#part-2 {
-   font-size: 14px;
-   float: right;
-   text-align: left;
-   left: 0px;
-   font-weight: lighter;
-   color: white;
-   font-family: "segoe-light";
-   line-height: 25px;
-   top: 60px;
-   position: relative;
- }
- .who-is-titre {
-   color: white;
-   font-family: "segoe-light";
-   left: 215px;
-   position: relative;
-   top: 41px;
-   font-size: 30px;
-   display: inline-block;
- }
- .icon {
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
- }
- .img-twitter {
-   position: relative;
-   top: 67px;
-   height: 14px;
-   width: 60px;
-   border: 2px solid white;
-   padding: 30px;
-   display: inline-block;
- }
- .img-google {
-   position: relative;
-   top: 67px;
-   width: 60px;
-   left: 15px;
-   height: 14px;
-   border: 2px solid white;
-   padding: 30px;
-   display: inline-block;
- }
- .img-dribbble {
-   position: relative;
-   top: 67px;
-   height: 10px;
-   left: 30px;
-   width: 60px;
-   border: 2px solid white;
-   padding: 30px;
-   display: inline-block;
- }
- .img-coffee2 {
-   position: relative;
-   top: 67px;
-   height: 14px;
-   width: 60px;
-   left: 45px;
-   border: 2px solid white;
-   padding: 30px;
-   display: inline-block;
- }
-
