@@ -230,19 +230,25 @@ body {
    background-color: #4bcaff;
    font-family: "segoe-light", sans-serif;
    color: #ffffff;
-   height: 306px;
 }
 
 .twitter-container {
-   margin: 375px;
+   padding: 80px 375px ;
 }
 
-.main-twitter h1 span {
-   text-decoration: underline;
+.header-twitter {
+   display:flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+.main-twitter h2 span {
+   border-bottom: solid 2px #ffffff;
 }
 
 .twitter-titre {
-   font-size: 30px;
+   margin: 0;
+   font-size: 30px;  
 }
 
 .twitter-text {
@@ -255,115 +261,89 @@ body {
    font-weight: bold;
 }
 
-.icon-twitter {
-  
-}
-
 /************** WHO IS **************/
 .main-whois {
    background-image: url("../img/who_is.jpg");
-   height: 500px;
-   background-position: center;
-   background-repeat: no-repeat;
+   color: #ffffff;
 }
 
 .whois-container {
-   margin: 375px;
+   padding: 100px 375px;
 }
 
 .whois {
-   text-decoration: underline;
-   color: white;
+   border-bottom: solid 2px #ffffff;
 }
 
-#wrap p {
-   width: 50%;
+.wrap {
+  display:flex;
+  font-size: 14px;
+  color: white;
+  font-family:"segoe-regular", sans-serif;
+  margin: 40px 0 0 0;
 }
 
-p#part-1 {
-   font-size: 14px;
-   float: left;
-   text-align: left;
-   left: 215px;
-   font-weight: lighter;
-   color: white;
-   font-family: "segoe-light", sans-serif;
-   line-height: 25px;
-   top: 60px;
-   position: relative;
+.part-1 {
+ margin:0;  
 }
 
-p#part-2 {
-   font-size: 14px;
-   float: right;
-   text-align: left;
-   left: 0;
-   font-weight: lighter;
-   color: white;
-   font-family: "segoe-light", sans-serif;
-   line-height: 25px;
-   top: 60px;
-   position: relative;
+.part-2{
+   margin: 0;
+}
+
+.part-right {
+   margin:0 0 0 70px;
 }
 
 .who-is-titre {
-   color: white;
-   font-family: "segoe-light", sans-serif;
-   left: 215px;
-   position: relative;
-   top: 41px;
+   margin: 0;
    font-size: 30px;
-   display: inline-block;
+}
+
+.group-icon {
+   display:flex
 }
 
 .icon {
-   position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
 }
 
 .img-twitter {
-   position: relative;
-   top: 67px;
-   height: 14px;
+   height: 60px;
    width: 60px;
    border: 2px solid white;
    padding: 30px;
-   display: inline-block;
+   margin-right:20px;
+   margin-top:39px;
 }
 
 .img-google {
-   position: relative;
-   top: 67px;
+   height: 60px;
    width: 60px;
-   left: 15px;
-   height: 14px;
    border: 2px solid white;
    padding: 30px;
-   display: inline-block;
+   margin-right:20px;
+   margin-top:39px;
 }
 
 .img-dribbble {
-   position: relative;
-   top: 67px;
-   height: 10px;
-   left: 30px;
+   height: 60px;
    width: 60px;
    border: 2px solid white;
    padding: 30px;
-   display: inline-block;
+   margin-right:20px;
+   margin-top:39px;
 }
 
 .img-coffee2 {
-   position: relative;
-   top: 67px;
-   height: 14px;
+   height: 60px;
    width: 60px;
-   left: 45px;
    border: 2px solid white;
    padding: 30px;
-   display: inline-block;
+   margin-right:20px;
+   margin-top:39px;
 }
 
 /************** TESTIMONIALS **************/
