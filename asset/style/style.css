@@ -10,13 +10,13 @@ marge du contenu main -> 375px
 
 /************** FONTS **************/
 @font-face {
-  font-family: "segoe-light";
-  src: url("../font/segoe_ui_light.ttf");
+   font-family: "segoe-light";
+   src: url("../font/segoe_ui_light.ttf");
 }
 
 @font-face {
-  font-family: "segoe-regular";
-  src: url("../font/segoe_ui_regular.ttf");
+   font-family: "segoe-regular";
+   src: url("../font/segoe_ui_regular.ttf");
 }
 
 @font-face {
@@ -164,7 +164,7 @@ body {
 
 .nav_portfolio ul li {
    display: inline-block;
-   
+
 }
 
 .nav_portfolio ul li a {
@@ -201,12 +201,12 @@ body {
    position: relative;
 }
 
-.img_portfolio a .cross { 
+.img_portfolio a .cross {
    color: white;
    font-size: 5rem;
    font-family: "segoe-light";
    position: absolute;
-   top: 50%; 
+   top: 50%;
    left: 50%;
    transform: translate(-50%,-50%);
    opacity: 0%;
@@ -350,16 +350,16 @@ textarea {
    height: 200px;
 }
 
-   /************Twitter******************/
+/************Twitter******************/
 .twitter-container {
    background-color: #4bcaff;
    height: 306px;
- }
- .titre {
+}
+.titre {
    text-decoration: underline;
    color: white;
- }
- .twitter {
+}
+.twitter {
    color: white;
    font-family: "segoe-light";
    left: 215px;
@@ -367,8 +367,8 @@ textarea {
    top: 41px;
    font-size: 30px;
    display: inline-block;
- }
- .twitter-text {
+}
+.twitter-text {
    left: 215px;
    color: white;
    font-family: "segoe-light";
@@ -376,32 +376,32 @@ textarea {
    position: relative;
    font-size: 28px;
    right: auto;
- }
- .bolder {
+}
+.bolder {
    font-family: "segoe-bold";
    font-weight: bold;
- }
- .icon-twitter {
+}
+.icon-twitter {
    position: relative;
    left: 1013px;
    height: auto;
- }
- /*****************who is*****************/
- .whois-container {
+}
+/*****************who is*****************/
+.whois-container {
    background-image: url("file:///C:/Users/stagiaire%20acs/Desktop/blueasy/asset/img/who_is.jpg");
    height: 500px;
    background-position: center;
    background-repeat: no-repeat;
- }
- .whois {
+}
+.whois {
    text-decoration: underline;
    color: white;
- }
- 
- #wrap p {
+}
+
+#wrap p {
    width: 50%;
- }
- p#part-1 {
+}
+p#part-1 {
    font-size: 14px;
    float: left;
    text-align: left;
@@ -412,9 +412,9 @@ textarea {
    line-height: 25px;
    top: 60px;
    position: relative;
- }
- 
- p#part-2 {
+}
+
+p#part-2 {
    font-size: 14px;
    float: right;
    text-align: left;
@@ -425,8 +425,8 @@ textarea {
    line-height: 25px;
    top: 60px;
    position: relative;
- }
- .who-is-titre {
+}
+.who-is-titre {
    color: white;
    font-family: "segoe-light";
    left: 215px;
@@ -434,14 +434,14 @@ textarea {
    top: 41px;
    font-size: 30px;
    display: inline-block;
- }
- .icon {
+}
+.icon {
    position: absolute;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
- }
- .img-twitter {
+}
+.img-twitter {
    position: relative;
    top: 67px;
    height: 14px;
@@ -449,8 +449,8 @@ textarea {
    border: 2px solid white;
    padding: 30px;
    display: inline-block;
- }
- .img-google {
+}
+.img-google {
    position: relative;
    top: 67px;
    width: 60px;
@@ -459,8 +459,8 @@ textarea {
    border: 2px solid white;
    padding: 30px;
    display: inline-block;
- }
- .img-dribbble {
+}
+.img-dribbble {
    position: relative;
    top: 67px;
    height: 10px;
@@ -469,8 +469,8 @@ textarea {
    border: 2px solid white;
    padding: 30px;
    display: inline-block;
- }
- .img-coffee2 {
+}
+.img-coffee2 {
    position: relative;
    top: 67px;
    height: 14px;
@@ -479,5 +479,28 @@ textarea {
    border: 2px solid white;
    padding: 30px;
    display: inline-block;
- }
+}
 
+/*************FOOTER *********/
+footer{
+   background: #353f46;
+}
+
+.wrap-footer{
+   padding: 80px 375px;
+   color: #515f67;
+   display: flex;
+   justify-content: space-between;
+}
+
+.nav-footer a{
+   color: #515f67;
+   font-family: "segoe-bold";
+   font-size: 0.87rem;
+   text-decoration: none;
+}
+
+.separation{
+   margin: 0 15px;
+   cursor: pointer;
+}
