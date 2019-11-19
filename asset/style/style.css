@@ -138,7 +138,6 @@ body {
 }
 
 /***************** PORTFOLIO *****************/
-
 .conteneur_portfolio {
    margin: 0px 375px 65px 375px;
 }
@@ -157,14 +156,12 @@ body {
    font-family: "segoe-light";
    font-size: 1.87rem;
 }
-.titre_portfolio #trait {
-   background-color: black;
+.titre_portfolio h2 span {
+   border-bottom: solid 2px;
 }
-
 
 .nav_portfolio ul li {
    display: inline-block;
-   
 }
 
 .nav_portfolio ul li a {
@@ -265,11 +262,11 @@ body {
    border:solid 2px #353f46;
    padding: 16px 39px; 
 }
+
 .conteneur_video_section {
    margin: 80px 0px;
    opacity: 0.7;
 }
-
 
 /********* TESTIMONIALS ************/
 .main-testimonials {
