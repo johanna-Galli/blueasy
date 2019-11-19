@@ -229,43 +229,34 @@ body {
 .main-twitter {
    background-color: #4bcaff;
    font-family: "segoe-light", sans-serif;
-   height: 306px;
    color: #ffffff;
+   height: 306px;
 }
 
 .twitter-container {
    margin: 375px;
 }
 
-.main-twitter .titre {
+.main-twitter h1 span {
    text-decoration: underline;
 }
 
-.twitter {
-   left: 215px;
-   position: relative;
-   top: 41px;
+.twitter-titre {
    font-size: 30px;
-   display: inline-block;
 }
 
 .twitter-text {
-   left: 215px;
-   top: 20px;
-   position: relative;
    font-size: 28px;
    right: auto;
 }
 
-.bolder {
+.bold {
    font-family: "segoe-bold", sans-serif;
    font-weight: bold;
 }
 
 .icon-twitter {
-   position: relative;
-   left: 1013px;
-   height: auto;
+  
 }
 
 /************** WHO IS **************/
