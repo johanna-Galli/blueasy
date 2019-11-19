@@ -138,6 +138,63 @@ body {
 }
 
 /************** SERVICES **************/
+.main-services {
+   background: #4bcaff;
+   color: #ffffff;
+}
+
+.services-container {
+   margin: 0 375px;
+}
+
+.services-container h2, .services-container h3, .services-container p {
+   margin: 0;
+}
+
+.services-container h2 {
+   font-family: "segoe-light", sans-serif;
+   font-size: 30px;
+}
+
+.services-container h3 {
+   font-size: 24px;
+   font-family: "segoe-bold", sans-serif;
+}
+
+.services-container p {
+   font-size: 12px;
+   font-family: "segoe-regular", sans-serif;
+}
+
+.services-container span {
+   border-bottom: #ffffff solid 2px;
+}
+
+.services-container .services-flex {
+   display: flex;
+}
+
+.services-container img {
+   margin-top: 39px;
+   margin-bottom: 24px;
+}
+
+.services-container h2 {
+   padding-top: 80px;
+}
+
+.services-container h3 {
+   margin-bottom: 20px;
+}
+
+.services-container p {
+   margin-bottom: 80px;
+   padding-right: 10px;
+}
+
+.services-container .char-upper {
+   text-transform: uppercase;
+}
 
 
 /************** PORTFOLIO **************/
