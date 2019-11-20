@@ -11,8 +11,8 @@ Johanna
 - ~~Section~~
 
 Ilias
-- Twitter
-- Who is?
+- ~~Twitter~~
+- ~~Who is?~~
 
 Thomas
 - ~~Testomonid~~
